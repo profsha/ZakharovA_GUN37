@@ -13,11 +13,11 @@ namespace Tanks
 
         private Rigidbody _body;
         private BaseInputController _controller;
-        
+
         private Vector3 _prevPosition;
         private float _prevRotation;
         private float _currentSteerAngle;
-        
+
         [Inject]
         private CinemachineCamera _camera;
 
@@ -28,18 +28,18 @@ namespace Tanks
         private AudioSource _skidAudioSource;
         [SerializeField, Tooltip("Графики мощности двигателя на разных передачах\ntime - Speed | value - Torque")]
         private TransmissionSettings _transmission;
-        
-        [SerializeField, Space, Range(5f, 50f)] 
+
+        [SerializeField, Space, Range(5f, 50f)]
         private float _maxSteerAngle = 25f;
 
         [SerializeField, Min(0f)]
         private float _maxHandbrakeTorque = float.MaxValue;
-        [SerializeField] 
+        [SerializeField]
         private Vector3 _centreOfMass;
 
-        [SerializeField, Tooltip("Дополнительная сила придавливания танка к земле. Улучшает сцепление с трассой")] 
+        [SerializeField, Tooltip("Дополнительная сила придавливания танка к земле. Улучшает сцепление с трассой")]
         private float _downforce = 100f;
-        [SerializeField, Tooltip("Пороговое значение, при котором скольжение колеса создает эффекты и звуки")] 
+        [SerializeField, Tooltip("Пороговое значение, при котором скольжение колеса создает эффекты и звуки")]
         private float _slipLimit = .3f;
         [SerializeField, Tooltip("Множитель мощности двигателя при заднем ходе")]
         private float _reverseMult = .4f;
@@ -47,13 +47,13 @@ namespace Tanks
         [SerializeField, Range(10f, 300f)]
         private float _maxSpeedFOV = 200f;
         [SerializeField]
-        private Vector2 _fov = new (40f, 40f);
+        private Vector2 _fov = new(40f, 40f);
 
 #if UNITY_EDITOR
         [SerializeField]
         private bool _debugTorque;
 #endif
-        
+
         /// <summary>
         /// Текущая скорость танка в горизонтальной плоскости
         /// </summary>
@@ -169,7 +169,7 @@ namespace Tanks
             for (int i = 0, iMax = _wheels.Length; i < iMax; i++)
                 _wheels[i].UpdateVisual();
         }
-        
+
         private void OnDrawGizmos()
         {
             if (!Application.isPlaying)

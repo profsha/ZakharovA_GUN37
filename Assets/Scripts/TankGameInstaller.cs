@@ -1,40 +1,43 @@
-using Unity.Cinemachine;
 using Tanks.Interface;
+using Unity.Cinemachine;
 using UnityEngine;
 using Zenject;
 
 namespace Tanks
 {
+
 	/// <summary>
 	/// Установщик для предподготовки зависимостей
 	/// </summary>
 	public class TankGameInstaller : MonoInstaller
 	{
 		private TankControls _controls;
-		
+
+
 		public override void InstallBindings()
 		{
 			_controls = new TankControls();
 			Container.BindInstance(_controls.Tank);
 			Container.BindInstance(_controls.Turret);
 
-#region Check Audio Pool
+			#region Check Audio Pool
 			var audioPool = GetComponentInChildren<AudioPool>();
 			if (audioPool == null)
 			{
 				Debug.LogError($"Can't find {nameof(AudioPool)!}", this);
 				EmergencyStop();
 			}
-			if(audioPool.IsBroken)
+			if (audioPool.IsBroken)
 				Debug.LogError("Audio pool is broken!", audioPool);
 			else
 				audioPool.CallInitialize(poolCapacity: 8);
-			
+
+
 			Container.BindInstance(audioPool);
-#endregion
-			
-			
-#region Find UI elements
+			#endregion
+
+
+			#region Find UI elements
 			var indicator = FindFirstObjectByType<CarnageIndicator>();
 			var speedometer = FindFirstObjectByType<Speedometer>();
 			if (indicator == null || speedometer == null)
@@ -42,13 +45,15 @@ namespace Tanks
 				Debug.LogError("Can't find UI Components!", this);
 				EmergencyStop();
 				indicator = new CarnageIndicator();//create broken component
+
 				speedometer = new Speedometer();//create broken component
+
 			}
 			Container.BindInstance(indicator);
 			Container.BindInstance(speedometer);
-#endregion
+			#endregion
 
-#region Find tank
+			#region Find tank
 			var tank = FindFirstObjectByType<TankController>();
 			var turret = FindFirstObjectByType<TurretController>();
 			if (tank == null || turret == null)
@@ -56,22 +61,25 @@ namespace Tanks
 				Debug.LogError("Can't find Tank Components!", this);
 				EmergencyStop();
 				tank = new TankController();//create broken component
+
 				turret = new TurretController();//create broken component
+
 			}
 			Container.BindInstance(tank);
 			Container.BindInstance(turret);
-#endregion
-			
-#region Find camera
-			var camera = FindFirstObjectByType<CinemachineVirtualCamera>();
+			#endregion
+
+			#region Find camera
+			var camera = FindFirstObjectByType<CinemachineCamera>();
 			if (camera == null)
 			{
 				Debug.LogError("Can't find Cinemachine camera!", this);
 				EmergencyStop();
-				camera = new CinemachineVirtualCamera();//create broken component
+				camera = new CinemachineCamera();//create broken component
+
 			}
 			Container.BindInstance(camera);
-#endregion
+			#endregion
 		}
 
 		private void OnEnable()
@@ -92,6 +100,7 @@ namespace Tanks
 		[System.Diagnostics.Conditional("UNITY_EDITOR")]
 		private void EmergencyStop()
 		{
+
 #if UNITY_EDITOR && false
 			UnityEditor.EditorApplication.isPlaying = false;
 #endif
