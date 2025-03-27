@@ -10,8 +10,8 @@ namespace Tanks.Tests
 		private float _delay;
 		
 		[Tooltip("Сила нажатия педали газа при стремлении к цели")]
-		[SerializeField, Range(0f, 1f)]
-		private float _accelerationPower = 1f;
+		[SerializeField, Range(0f, 2f)]
+		private float _accelerationPower = 2f;
 		[SerializeField, Range(0f, 30f)]
 		private float _fireDelaySec = 1f;
 

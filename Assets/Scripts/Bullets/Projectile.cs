@@ -47,8 +47,8 @@ namespace Tanks
 		/// </summary>
 		public Vector3 Velocity
 		{
-			get => _body.linearVelocity;
-			set => _body.linearVelocity = value;
+			get => _body.velocity;
+			set => _body.velocity = value;
 		}
 		
 		private void Awake()
