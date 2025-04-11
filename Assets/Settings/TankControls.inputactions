@@ -1,14 +1,14 @@
 {
-    "name": "InputSystem_Actions",
+    "name": "TankControls",
     "maps": [
         {
             "name": "Tank",
-            "id": "046f6f64-9dcc-4bfa-9d8b-28f1a1a53405",
+            "id": "3b7352d6-743c-475e-9d8e-c0ade8b8798b",
             "actions": [
                 {
                     "name": "Handbreak",
                     "type": "Button",
-                    "id": "abcd277c-08b6-4ff0-af56-6352be61c0be",
+                    "id": "2aabb41e-06f7-41d6-b038-493564631a76",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
@@ -17,7 +17,7 @@
                 {
                     "name": "Movement",
                     "type": "Value",
-                    "id": "1630c232-6f2e-45a9-8b76-a1bde598ccf3",
+                    "id": "d427b08e-c9ec-493e-b26f-808926d3085f",
                     "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": "",
@@ -27,7 +27,7 @@
             "bindings": [
                 {
                     "name": "",
-                    "id": "5009e86e-3aef-4bdb-b70d-3f5ac620fac3",
+                    "id": "e4f5c1e5-e3ad-4b17-9156-0ce718801978",
                     "path": "<Keyboard>/space",
                     "interactions": "",
                     "processors": "",
@@ -38,7 +38,7 @@
                 },
                 {
                     "name": "WASD",
-                    "id": "de3b19af-93b0-40f8-81be-5e2127585aa1",
+                    "id": "f25da3ff-2df3-4185-881c-ae24112344d4",
                     "path": "2DVector",
                     "interactions": "",
                     "processors": "",
@@ -49,7 +49,7 @@
                 },
                 {
                     "name": "up",
-                    "id": "93eff3c9-db6e-408e-9523-3a663aff6665",
+                    "id": "89135ffd-7499-4a09-b20d-4dcab4cc2eee",
                     "path": "<Keyboard>/w",
                     "interactions": "",
                     "processors": "",
@@ -60,7 +60,7 @@
                 },
                 {
                     "name": "down",
-                    "id": "e50ac551-953d-4c6b-b35c-b42f61b69d0d",
+                    "id": "bbfd9ad0-fc98-4369-a5f7-eb683b615cc8",
                     "path": "<Keyboard>/s",
                     "interactions": "",
                     "processors": "",
@@ -71,7 +71,7 @@
                 },
                 {
                     "name": "left",
-                    "id": "c23bbd58-c487-4fd1-b5e1-4c7a78a537f7",
+                    "id": "19662dc1-32e0-44ff-bcef-ea18da296b1a",
                     "path": "<Keyboard>/a",
                     "interactions": "",
                     "processors": "",
@@ -82,7 +82,7 @@
                 },
                 {
                     "name": "right",
-                    "id": "985ad7f2-cb31-4b0b-9ae8-dc85d05e0882",
+                    "id": "caa2e36c-211e-459a-8d36-2f418f6721c4",
                     "path": "<Keyboard>/d",
                     "interactions": "",
                     "processors": "",
@@ -95,12 +95,12 @@
         },
         {
             "name": "Turret",
-            "id": "06ee1783-ba8d-4784-8866-2803456146b1",
+            "id": "8a10e841-5845-4b0d-8888-16932849c6fe",
             "actions": [
                 {
                     "name": "Fire",
                     "type": "Button",
-                    "id": "6364f51b-af6d-4e85-a1d9-efcb92031964",
+                    "id": "13d1777f-7a37-4c08-8976-0d94ba473bae",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
@@ -109,7 +109,16 @@
                 {
                     "name": "Focus",
                     "type": "Value",
-                    "id": "67055d69-3035-49ed-9ff0-523c7a93dba1",
+                    "id": "ccb4c3a4-08b8-4e1d-9186-7ca454530efe",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "TurretRotate",
+                    "type": "Value",
+                    "id": "ee53fe35-de33-412c-ae05-a8557ec3cc32",
                     "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": "",
@@ -119,7 +128,7 @@
             "bindings": [
                 {
                     "name": "",
-                    "id": "91e65a2c-6109-44f0-8d93-f3c1f4dddfae",
+                    "id": "870eb4d6-bef2-4bf3-a199-f9d066bf762c",
                     "path": "<Keyboard>/e",
                     "interactions": "",
                     "processors": "",
@@ -130,7 +139,7 @@
                 },
                 {
                     "name": "",
-                    "id": "365637c4-4b66-4f71-9845-8706e12e69ce",
+                    "id": "4052e857-4b16-4be0-857a-ed980d534155",
                     "path": "<Mouse>/delta",
                     "interactions": "",
                     "processors": "",
@@ -138,70 +147,20 @@
                     "action": "Focus",
                     "isComposite": false,
                     "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a43ca134-d682-4649-998f-186f646aa3de",
+                    "path": "<Mouse>/delta",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TurretRotate",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         }
     ],
-    "controlSchemes": [
-        {
-            "name": "Keyboard&Mouse",
-            "bindingGroup": "Keyboard&Mouse",
-            "devices": [
-                {
-                    "devicePath": "<Keyboard>",
-                    "isOptional": false,
-                    "isOR": false
-                },
-                {
-                    "devicePath": "<Mouse>",
-                    "isOptional": false,
-                    "isOR": false
-                }
-            ]
-        },
-        {
-            "name": "Gamepad",
-            "bindingGroup": "Gamepad",
-            "devices": [
-                {
-                    "devicePath": "<Gamepad>",
-                    "isOptional": false,
-                    "isOR": false
-                }
-            ]
-        },
-        {
-            "name": "Touch",
-            "bindingGroup": "Touch",
-            "devices": [
-                {
-                    "devicePath": "<Touchscreen>",
-                    "isOptional": false,
-                    "isOR": false
-                }
-            ]
-        },
-        {
-            "name": "Joystick",
-            "bindingGroup": "Joystick",
-            "devices": [
-                {
-                    "devicePath": "<Joystick>",
-                    "isOptional": false,
-                    "isOR": false
-                }
-            ]
-        },
-        {
-            "name": "XR",
-            "bindingGroup": "XR",
-            "devices": [
-                {
-                    "devicePath": "<XRController>",
-                    "isOptional": false,
-                    "isOR": false
-                }
-            ]
-        }
-    ]
+    "controlSchemes": []
 }
