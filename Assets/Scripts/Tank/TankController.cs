@@ -1,5 +1,5 @@
 ﻿using System;
-using Unity.Cinemachine;
+using Cinemachine;
 using UnityEngine;
 using Zenject;
 
@@ -19,7 +19,7 @@ namespace Tanks
         private float _currentSteerAngle;
 
         [Inject]
-        private CinemachineCamera _camera;
+        private CinemachineVirtualCamera _camera;
 
         [Header("---References---"), SerializeField]
         [Tooltip("Ссылки на четыре колеса танка")]
@@ -119,7 +119,7 @@ namespace Tanks
             _prevPosition = position;
 
             CurrentSpeed = (float)Math.Round((double)distance / Time.deltaTime * c_convertMeterInSecFromKmInH, 1);
-            _camera.Lens.FieldOfView = Mathf.Lerp(_fov.x, _fov.y, Mathf.InverseLerp(0f, _maxSpeedFOV, CurrentSpeed));
+            _camera.m_Lens.FieldOfView = Mathf.Lerp(_fov.x, _fov.y, Mathf.InverseLerp(0f, _maxSpeedFOV, CurrentSpeed));
         }
 
         private void ApplyDrive()

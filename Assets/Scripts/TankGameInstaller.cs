@@ -1,5 +1,5 @@
 using Tanks.Interface;
-using Unity.Cinemachine;
+using Cinemachine;
 using UnityEngine;
 using Zenject;
 
@@ -70,12 +70,12 @@ namespace Tanks
 			#endregion
 
 			#region Find camera
-			var camera = FindFirstObjectByType<CinemachineCamera>();
+			var camera = FindFirstObjectByType<CinemachineVirtualCamera>();
 			if (camera == null)
 			{
 				Debug.LogError("Can't find Cinemachine camera!", this);
 				EmergencyStop();
-				camera = new CinemachineCamera();//create broken component
+				camera = new CinemachineVirtualCamera();//create broken component
 
 			}
 			Container.BindInstance(camera);

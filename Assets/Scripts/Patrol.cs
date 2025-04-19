@@ -1,5 +1,5 @@
 ﻿using System;
-using Unity.Cinemachine;
+using Cinemachine;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
