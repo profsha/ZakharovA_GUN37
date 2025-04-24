@@ -74,7 +74,7 @@ namespace Tanks
     /// }
     /// </code>
     /// </example>
-    public partial class @TankControls: IInputActionCollection2, IDisposable
+    public partial class TankControls: IInputActionCollection2, IDisposable
     {
         /// <summary>
         /// Provides access to the underlying asset instance.
@@ -84,7 +84,7 @@ namespace Tanks
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public @TankControls()
+        public TankControls()
         {
             asset = InputActionAsset.FromJson(@"{
     ""name"": ""TankControls"",
@@ -217,7 +217,7 @@ namespace Tanks
                 {
                     ""name"": """",
                     ""id"": ""870eb4d6-bef2-4bf3-a199-f9d066bf762c"",
-                    ""path"": ""<Keyboard>/e"",
+                    ""path"": ""<Keyboard>/q"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -263,7 +263,7 @@ namespace Tanks
             m_Turret_TurretRotate = m_Turret.FindAction("TurretRotate", throwIfNotFound: true);
         }
 
-        ~@TankControls()
+        ~TankControls()
         {
             UnityEngine.Debug.Assert(!m_Tank.enabled, "This will cause a leak and performance issues, TankControls.Tank.Disable() has not been called.");
             UnityEngine.Debug.Assert(!m_Turret.enabled, "This will cause a leak and performance issues, TankControls.Turret.Disable() has not been called.");
@@ -349,12 +349,12 @@ namespace Tanks
         /// </summary>
         public struct TankActions
         {
-            private @TankControls m_Wrapper;
+            private TankControls m_Wrapper;
 
             /// <summary>
             /// Construct a new instance of the input action map wrapper class.
             /// </summary>
-            public TankActions(@TankControls wrapper) { m_Wrapper = wrapper; }
+            public TankActions(TankControls wrapper) { m_Wrapper = wrapper; }
             /// <summary>
             /// Provides access to the underlying input action "Tank/Handbreak".
             /// </summary>
@@ -457,12 +457,12 @@ namespace Tanks
         /// </summary>
         public struct TurretActions
         {
-            private @TankControls m_Wrapper;
+            private TankControls m_Wrapper;
 
             /// <summary>
             /// Construct a new instance of the input action map wrapper class.
             /// </summary>
-            public TurretActions(@TankControls wrapper) { m_Wrapper = wrapper; }
+            public TurretActions(TankControls wrapper) { m_Wrapper = wrapper; }
             /// <summary>
             /// Provides access to the underlying input action "Turret/Fire".
             /// </summary>

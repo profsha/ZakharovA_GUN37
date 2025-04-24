@@ -162,7 +162,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 757094600392850748}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.08239906, y: -0.07906572, z: 0.0065579847, w: 0.99343646}
+  m_LocalRotation: {x: 0.075286634, y: -0.07012923, z: 0.005308039, w: 0.9946787}
   m_LocalPosition: {x: 1.72, y: 1.8163619, z: -10.737184}
   m_LocalScale: {x: 1.1424265, y: 1.1851834, z: 6.3649573}
   m_ConstrainProportionsScale: 0
@@ -188,7 +188,7 @@ MonoBehaviour:
   m_StreamingVersion: 20170927
   m_Priority: 10
   m_StandbyUpdate: 2
-  m_LookAt: {fileID: 3404286381489446212}
+  m_LookAt: {fileID: 2009195001043468004}
   m_Follow: {fileID: 4957637704584570205}
   m_Lens:
     FieldOfView: 60.000004
@@ -315,7 +315,7 @@ GameObject:
   - component: {fileID: 4892592255811339397}
   - component: {fileID: 3285602404261926336}
   m_Layer: 9
-  m_Name: b_left
+  m_Name: LeftRear
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -344,7 +344,7 @@ WheelCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1181743503338066001}
   serializedVersion: 2
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Center: {x: 0, y: 0.1, z: 0}
   m_Radius: 0.5
   m_SuspensionSpring:
     spring: 35000
@@ -719,7 +719,7 @@ GameObject:
   - component: {fileID: 456732913738227812}
   - component: {fileID: 1259333100993395792}
   m_Layer: 9
-  m_Name: f_left
+  m_Name: LeftFront
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -748,7 +748,7 @@ WheelCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2958326887950305550}
   serializedVersion: 2
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Center: {x: 0, y: 0.1, z: 0}
   m_Radius: 0.5
   m_SuspensionSpring:
     spring: 35000
@@ -875,7 +875,7 @@ GameObject:
   - component: {fileID: 366456366497672785}
   - component: {fileID: 1306671767090844664}
   m_Layer: 9
-  m_Name: f_right
+  m_Name: RightFront
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -904,7 +904,7 @@ WheelCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5322886276134248962}
   serializedVersion: 2
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Center: {x: 0, y: 0.1, z: 0}
   m_Radius: 0.5
   m_SuspensionSpring:
     spring: 35000
@@ -982,7 +982,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -1304,7 +1304,7 @@ Transform:
   m_GameObject: {fileID: 7408500676386759020}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.31}
+  m_LocalPosition: {x: 0, y: -0.05, z: 1.4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1536,8 +1536,8 @@ Rigidbody:
   m_GameObject: {fileID: 7886681487382779733}
   serializedVersion: 4
   m_Mass: 2000
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 0.3
+  m_AngularDrag: 0.2
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
   m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -1856,7 +1856,7 @@ GameObject:
   - component: {fileID: 2890588114144682949}
   - component: {fileID: 2669171790120785040}
   m_Layer: 9
-  m_Name: b_right
+  m_Name: RightRear
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1885,7 +1885,7 @@ WheelCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9182748381875899396}
   serializedVersion: 2
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Center: {x: 0, y: 0.1, z: 0}
   m_Radius: 0.5
   m_SuspensionSpring:
     spring: 35000
@@ -1938,7 +1938,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4508696319873668, guid: 01757334d0222ed4881ce8922d96bd92, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.97
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4508696319873668, guid: 01757334d0222ed4881ce8922d96bd92, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2005,7 +2005,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4300533007854612, guid: 0f5d80b13ed22d14b91a12eb2cfa86e6, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.97
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4300533007854612, guid: 0f5d80b13ed22d14b91a12eb2cfa86e6, type: 3}
       propertyPath: m_LocalRotation.w

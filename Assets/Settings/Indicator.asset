@@ -18,16 +18,16 @@ MonoBehaviour:
     Clip: {fileID: 0}
   - Mult: 2
     Text: 22
-    Clip: {fileID: 0}
+    Clip: {fileID: 7400000, guid: 2cc587680b1c2de458308b50a870cfc9, type: 2}
   - Mult: 3
     Text: 33
-    Clip: {fileID: 0}
+    Clip: {fileID: 7400000, guid: e34ea2ae3cc668445bcad489fdad744b, type: 2}
   - Mult: 5
     Text: 44
-    Clip: {fileID: 0}
+    Clip: {fileID: 7400000, guid: 1ed7a6d85ed608446b4235996a57d4f6, type: 2}
   - Mult: 7
     Text: 55
-    Clip: {fileID: 0}
+    Clip: {fileID: 7400000, guid: 4ffe1afc44ee95f4fad8fcad8b926594, type: 2}
   - Mult: 9
     Text: CARNAGE!!!
-    Clip: {fileID: 0}
+    Clip: {fileID: 7400000, guid: d45af3d7acfaedc41aa7d6c0607e6e9c, type: 2}

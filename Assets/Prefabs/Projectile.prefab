@@ -148,8 +148,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _explosionRadius: 2
-  _explosionForce: 50
-  _lifeTime: 7
+  _explosionForce: 9
+  _lifeTime: 3
 --- !u!96 &2409776127432515852
 TrailRenderer:
   serializedVersion: 3
