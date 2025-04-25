@@ -50,6 +50,12 @@ namespace Tanks
 			get => _body.velocity;
 			set => _body.velocity = value;
 		}
+
+		public Vector3 Position
+		{
+			get => _body.position;
+			set => _body.position = value;
+		}
 		
 		private void Awake()
 		{

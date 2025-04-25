@@ -133,8 +133,9 @@ namespace Tanks
 			_fireTime = time;
 
 			//Set direction and position
-			var bullet = _pool.GetElement(FirePoint.transform);
-			var forward = bullet.transform.forward;
+			var bullet = _pool.GetElement();
+			bullet.Position =  FirePoint.position;
+			var forward = FirePoint.transform.forward;
 			var position = bullet.transform.position;
 			bullet.Velocity = forward * Velocity;
 			//Create fire effect

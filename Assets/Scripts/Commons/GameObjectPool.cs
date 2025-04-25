@@ -39,24 +39,18 @@ namespace Tanks
 		/// </summary>
 		/// <returns>Свободный элементт для переиспользования</returns>
 		/// <remarks>Если в пуле нет свободных элементов - создает новый</remarks>
-		public virtual T GetElement(Transform localTransform = null)
+		public virtual T GetElement()
 		{
 			var element = _elements.Find(t => !t.gameObject.activeSelf);
 
 			if (element == null)
 			{
-				element = GameObject.Instantiate(_prefab, localTransform ?? transform);
+				element = GameObject.Instantiate(_prefab, transform);
 				CreateCallback?.Invoke(element);
 				_elements.Add(element);
 			}
 			else
 			{
-				if (localTransform != null)
-				{
-					element.gameObject.transform.position = localTransform.position;
-					element.gameObject.transform.rotation = localTransform.rotation;
-				}
-
 				element.gameObject.SetActive(true);
 			}
 
