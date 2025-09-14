@@ -27,7 +27,6 @@ public class Battlefield : MonoBehaviour
             if (unit != null)
             {
                 unit.Cell = cell;
-                unit.OnUnitClicked += _battleController.HandleClick;
             }
         }
     }
