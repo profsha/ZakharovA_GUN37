@@ -6,9 +6,6 @@ using Zenject;
 public class Loader : MonoBehaviour
 {
     [Inject]
-    private SceneController _sceneController;
+    private BattleController _battleController;
     
-    public void LoadMainScene() => _sceneController.OpenMainScene();
-    
-    public void LoadGameScene() => _sceneController.OpenGameScene();
 }

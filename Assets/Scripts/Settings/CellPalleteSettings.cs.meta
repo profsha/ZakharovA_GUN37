@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f5f41c9888edf484bb893b27472d0ae3
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - <Selected>k__BackingField: {fileID: 2100000, guid: d8b6161d89ffd284284a09a08b4cc61d, type: 2}
+  - <Move>k__BackingField: {fileID: 2100000, guid: 28a2dc912e4fd05478cea35e5e79da5d, type: 2}
+  - <Attack>k__BackingField: {fileID: 2100000, guid: 5019bcb530e3cf14d847c32cb2fd906b, type: 2}
+  - <MoveAndAttack>k__BackingField: {fileID: 2100000, guid: a9388ce0ccc443f4bb2c5610488eb8c3, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
