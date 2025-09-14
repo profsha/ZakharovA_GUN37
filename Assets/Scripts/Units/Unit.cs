@@ -6,22 +6,40 @@ using UnityEngine.EventSystems;
 
 public class Unit : MonoBehaviour, IPointerClickHandler, IPointerEnterHandler, IPointerExitHandler
 {
-    private Vector3 _targetPoint;
     [SerializeField]
     private float speed = 2.0f;
     public Cell Cell { get; set; }
+    
+    
+    public event Action<Unit> OnMovementStarted;
+    public event Action<Unit> OnMovementCompleted;
+    
+    private Coroutine _movementCoroutine;
 
     public void MoveTo(Cell cell)
     {
-        _targetPoint.x = cell.transform.position.x;
-        _targetPoint.z = cell.transform.position.z;
-        _targetPoint.y = transform.position.y;
-        Cell = cell;
+        StartCoroutine(MoveToPositionCoroutine(cell));
     }
     
-    void Update()
+    private IEnumerator MoveToPositionCoroutine(Cell cell)
     {
-        transform.position = Vector3.Lerp(transform.position, _targetPoint, speed * Time.deltaTime);
+        OnMovementStarted?.Invoke(this);
+
+        Vector3 targetPosition = transform.position;
+        targetPosition.x = cell.transform.position.x;
+        targetPosition.z = cell.transform.position.z;
+        
+        Vector3 startPosition = transform.position;
+
+        while (Vector3.Distance(transform.position, targetPosition) > 0.1f)
+        {
+            transform.position = Vector3.Lerp(startPosition, targetPosition, Time.deltaTime * speed);
+            yield return null;
+        }
+
+        transform.position = targetPosition;
+        OnMovementCompleted?.Invoke(this);
+        Cell = cell;
     }
 
     public void OnPointerClick(PointerEventData eventData) => Cell.OnPointerClick(eventData);
