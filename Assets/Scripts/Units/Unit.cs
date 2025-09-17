@@ -6,11 +6,11 @@ using UnityEngine.EventSystems;
 
 public class Unit : MonoBehaviour, IPointerClickHandler, IPointerEnterHandler, IPointerExitHandler
 {
-    [SerializeField]
-    private float speed = 2.0f;
+    [SerializeField] private float speed = 2.0f;
+    [SerializeField] private Team team = Team.White;
+
     public Cell Cell { get; set; }
-    
-    
+
     public event Action<Unit> OnMovementStarted;
     public event Action<Unit> OnMovementCompleted;
     

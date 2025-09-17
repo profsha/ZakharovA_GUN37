@@ -27,6 +27,8 @@ public class Battlefield : MonoBehaviour
             if (unit != null)
             {
                 unit.Cell = cell;
+                unit.OnMovementStarted += (x) => Debug.Log($"MovementStarted {x.name}");
+                unit.OnMovementCompleted += (x) => Debug.Log($"MovementCompleted {x.name}");
             }
         }
     }
