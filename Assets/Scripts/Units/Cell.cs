@@ -10,7 +10,11 @@ public class Cell: MonoBehaviour, IPointerClickHandler, IPointerEnterHandler, IP
     private MeshRenderer focused;
     [SerializeField]
     private MeshRenderer selected;
-    
+    [field: SerializeField]
+    public Team HomeTeam { get; private set; }
+
+    public Dictionary<NeighbourType, Cell> Neighbours { get; set; }
+
     public Unit Unit { get; set; }
     
     public event Action<Cell> OnCellClicked;

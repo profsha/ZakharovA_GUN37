@@ -7,7 +7,9 @@ using UnityEngine.EventSystems;
 public class Unit : MonoBehaviour, IPointerClickHandler, IPointerEnterHandler, IPointerExitHandler
 {
     [SerializeField] private float speed = 2.0f;
-    [SerializeField] private Team team = Team.White;
+    public Team Team = Team.White;
+    
+    public UnitType Type = UnitType.Common;
 
     public Cell Cell { get; set; }
 
@@ -30,16 +32,22 @@ public class Unit : MonoBehaviour, IPointerClickHandler, IPointerEnterHandler, I
         targetPosition.z = cell.transform.position.z;
         
         Vector3 startPosition = transform.position;
+        
+        var time = Vector3.Distance(startPosition, targetPosition) / speed;
 
-        while (Vector3.Distance(transform.position, targetPosition) > 0.1f)
+        var delta = 0f;
+
+        while (delta < time)
         {
-            transform.position = Vector3.Lerp(startPosition, targetPosition, Time.deltaTime * speed);
+            transform.position = Vector3.Lerp(startPosition, targetPosition, delta / time);
+            delta += Time.deltaTime;
             yield return null;
         }
 
         transform.position = targetPosition;
-        OnMovementCompleted?.Invoke(this);
         Cell = cell;
+        cell.Unit = this;
+        OnMovementCompleted?.Invoke(this);
     }
 
     public void OnPointerClick(PointerEventData eventData) => Cell.OnPointerClick(eventData);

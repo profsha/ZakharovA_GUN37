@@ -2,17 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class IGameplayCommand : MonoBehaviour
+public interface IGameplayCommand
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    IEnumerable<Cell> Variants { get; }
+    
+    IEnumerable<Unit> Requires { get; }
+    
+    IDictionary<Cell, Unit> TargetUnits { get; }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    void Interact(Cell cell);
+
+    bool CheckRequires(Cell cell = null);
 }

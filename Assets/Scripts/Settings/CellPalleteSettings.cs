@@ -1,8 +1,7 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class CellPalleteSetings : ScriptableObject
+[CreateAssetMenu(fileName = "New CellPallete", menuName = "CellPallete", order = 51)]
+public class CellPalleteSettings : ScriptableObject
 {
     [field: SerializeField]
     public Material Selected { get; private set; }
