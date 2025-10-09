@@ -1,0 +1,2930 @@
+fileFormatVersion: 2
+guid: 6c0a89047c666104f85b8464afbfe2a6
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: cityTiles_000.png
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 1828
+        width: 132
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daca71d409354d2e0800000000000000
+      internalID: -2101963246841385811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_001.png
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 1210
+        width: 132
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cc408ea8f6287a60800000000000000
+      internalID: 7671924814747028673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_002.png
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 1311
+        width: 132
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3eb606db4cfdbd00800000000000000
+      internalID: 990224895734890045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_003.png
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 1412
+        width: 132
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b736c8d132385950800000000000000
+      internalID: 6437950856997779376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_004.png
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 1513
+        width: 132
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a17a624c638a8a30800000000000000
+      internalID: 4218328501979869607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_005.png
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 1641
+        width: 132
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce01f63ef40cea350800000000000000
+      internalID: 6029968400446329068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_006.png
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 1742
+        width: 132
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14388e2f5d5a74820800000000000000
+      internalID: 2902470823185515329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_007.png
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 1846
+        width: 132
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 169401bec793192f0800000000000000
+      internalID: -967929236225504927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_008.png
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 739
+        width: 133
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b304ddc6a7df55b40800000000000000
+      internalID: 5428523628119277627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_009.png
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 18
+        width: 132
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45b935ffd478b8c20800000000000000
+      internalID: 3209807928497511252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_010.png
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 119
+        width: 132
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f14a50a06f9f34880800000000000000
+      internalID: -8627777625986325473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_011.png
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 220
+        width: 132
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd7a12f4449706220800000000000000
+      internalID: 2477113129346115549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_012.png
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 348
+        width: 132
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be354e727ca7e6f90800000000000000
+      internalID: -6958489378454481941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_013.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1814
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e188f05f3542ab9a0800000000000000
+      internalID: -6216616392619227106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_014.png
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 577
+        width: 132
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db7df9cfe57aad270800000000000000
+      internalID: 8276111291653806013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_015.png
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 678
+        width: 132
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af671122ac78afc30800000000000000
+      internalID: 4393973688678053626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_016.png
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 779
+        width: 132
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a8d7313c65c48e00800000000000000
+      internalID: 1046178081929681060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_017.png
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 880
+        width: 132
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc5f66f5811b17790800000000000000
+      internalID: -7534045983376214581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_018.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1681
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c43f6f01f54a7370800000000000000
+      internalID: 8321040163168793799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_019.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1580
+        width: 133
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3705e87928d9bad30800000000000000
+      internalID: 4443818641545121907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_020.png
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 1181
+        width: 132
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2afaa941dc00f75e0800000000000000
+      internalID: -1909806836167823454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_021.png
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 1282
+        width: 132
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67ca376af80121700800000000000000
+      internalID: 509487917005253750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_022.png
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 1383
+        width: 132
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f6b8adf4595617e0800000000000000
+      internalID: -1795149179892746508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_023.png
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 1484
+        width: 132
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8676eb7a81d2ec150800000000000000
+      internalID: 5894698546191296360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_024.png
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 1612
+        width: 132
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37dd7a7e4e11b32b0800000000000000
+      internalID: -5603865636495696525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_025.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1378
+        width: 133
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3d5f0528c7db7440800000000000000
+      internalID: 4934775071329705279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_026.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1146
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9935d1b496e29ba0800000000000000
+      internalID: -6083546620311029349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_027.png
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 1947
+        width: 132
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a1c984bd9c680c90800000000000000
+      internalID: -7203388179384516186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_028.png
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 15
+        width: 132
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1f73e3b74a69a710800000000000000
+      internalID: 1705010790129696542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_029.png
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 116
+        width: 132
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9ec0164197033200800000000000000
+      internalID: 158478732415258270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_030.png
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 217
+        width: 132
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b78496798fae82f0800000000000000
+      internalID: -968643864903252042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_031.png
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 318
+        width: 132
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86d439cfa4d728130800000000000000
+      internalID: 3567551615849418088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_032.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1045
+        width: 133
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19bccad1c3e276160800000000000000
+      internalID: 7018629380010986385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_033.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 912
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9ee0044eb8a3ae20800000000000000
+      internalID: 3360715282086686367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_034.png
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 665
+        width: 132
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e992b0858054ae70800000000000000
+      internalID: 9125507279279528416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_035.png
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 792
+        width: 132
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75fa87a8fd5cde840800000000000000
+      internalID: 5255073904102780759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_036.png
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 893
+        width: 132
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1af0cc67788dc15b0800000000000000
+      internalID: -5396200177171427423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_037.png
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 1016
+        width: 132
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 997ea37d613616a60800000000000000
+      internalID: 7665516990512687001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_038.png
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 1117
+        width: 132
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a450b9bd5f6298c0800000000000000
+      internalID: -3994007471186226010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_039.png
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 1218
+        width: 132
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 075c5cbc03d8fc860800000000000000
+      internalID: 7552410340840293744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_040.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 710
+        width: 133
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f8f23545db8b65b0800000000000000
+      internalID: -5374047982231291657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_041.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 78
+        width: 133
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61bcdfabe81450750800000000000000
+      internalID: 6270490137461639958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_042.png
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 1521
+        width: 132
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b149903a97bc4920800000000000000
+      internalID: 2975955326653252021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_043.png
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 1622
+        width: 132
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df7ca1f3e21f0d710800000000000000
+      internalID: 1716136638957668349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_044.png
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 1723
+        width: 132
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06d7fa119b23fb280800000000000000
+      internalID: -9025439357780132512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_045.png
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 1846
+        width: 132
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbc83aa6cadaae9a0800000000000000
+      internalID: -6202954580714353473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_046.png
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 1947
+        width: 132
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb5368fa0cd68e7f0800000000000000
+      internalID: -583095477398522437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_047.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 508
+        width: 133
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 883e1aa5d83b051b0800000000000000
+      internalID: -5669834511167134840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_048.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 205
+        width: 133
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f789455c2689e720800000000000000
+      internalID: 2875977362020337657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_049.png
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 225
+        width: 132
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f32b28d2f6e58ea0800000000000000
+      internalID: -5871032608524393484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_050.png
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 326
+        width: 132
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 389768a182c587290800000000000000
+      internalID: -7892457019653326461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_051.png
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 427
+        width: 132
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc26f42472a3dcff0800000000000000
+      internalID: -14291283521609011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_052.png
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 528
+        width: 132
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42a6bf59d50cbe520800000000000000
+      internalID: 2732489107111111204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_053.png
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 629
+        width: 132
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 776a7e3048eea9730800000000000000
+      internalID: 4006777069268084343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_054.png
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 730
+        width: 132
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fdd8873749ae2fc0800000000000000
+      internalID: -3517688135590289931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_055.png
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 1343
+        width: 133
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29cd1d0fefb2b5370800000000000000
+      internalID: 8312285911204355218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_056.png
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 941
+        width: 133
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dc7bfdc88124fee0800000000000000
+      internalID: -1228319926910223146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_057.png
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 1045
+        width: 132
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b74fb36a51cea5e0800000000000000
+      internalID: -1896365799111702604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_058.png
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 1160
+        width: 132
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a064b571ccad4ebc0800000000000000
+      internalID: -3754635619220109814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_059.png
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 1291
+        width: 132
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47686f23d8f914d20800000000000000
+      internalID: 3261063033987171956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_060.png
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 1392
+        width: 132
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3219febda3fe65dd0800000000000000
+      internalID: -2497545907253309149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_061.png
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 1493
+        width: 132
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 649f9c7ace15e9890800000000000000
+      internalID: -7449426656755058362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_062.png
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 638
+        width: 133
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23bc4405c28e013a0800000000000000
+      internalID: -6696597368877036750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_063.png
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 840
+        width: 133
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f834e5680682de140800000000000000
+      internalID: 4750497576982037391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_064.png
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 1109
+        width: 132
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 930981a9e08e9ea10800000000000000
+      internalID: 1939336263972196409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_065.png
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 1932
+        width: 132
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 835c3c3b2942b8d70800000000000000
+      internalID: 9046364489003550008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_066.png
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 31
+        width: 132
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3c9c7291f09f79f0800000000000000
+      internalID: -468496469004084166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_067.png
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 132
+        width: 132
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a27d91e405d2d860800000000000000
+      internalID: 7553333741995520674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_068.png
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 1947
+        width: 132
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2ecbb7aecb57f280800000000000000
+      internalID: -9009631586395894228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_069.png
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 476
+        width: 132
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f89be07f5a812f30800000000000000
+      internalID: 4549069241141926132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_070.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1947
+        width: 133
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c79896a715e5a0f30800000000000000
+      internalID: 4542546878195665276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_071.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1479
+        width: 133
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56b46d9fe1da41140800000000000000
+      internalID: 4689563460551723877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_072.png
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 981
+        width: 132
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bdff550880bfcea0800000000000000
+      internalID: -5850263292678767183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_073.png
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 1846
+        width: 132
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df368019e0962a0e0800000000000000
+      internalID: -2260128551702862851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_074.png
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 1745
+        width: 132
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dc1eef3dbd743ef0800000000000000
+      internalID: -129340237512041262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_075.png
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 552
+        width: 132
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed08c850afd4bf120800000000000000
+      internalID: 2448636558636253406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_076.png
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 451
+        width: 132
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b21b47e75ac643510800000000000000
+      internalID: 1527965631632421163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_077.png
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 1242
+        width: 133
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04822382d9ba337d0800000000000000
+      internalID: -2939817440270211008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_078.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 609
+        width: 133
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3d8937249e07eab0800000000000000
+      internalID: -4978994833558762182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_079.png
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 1319
+        width: 132
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 007888ccf151de670800000000000000
+      internalID: 8569528892275590912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_080.png
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 1513
+        width: 132
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec2a94d64eb11fde0800000000000000
+      internalID: -1301228149433326898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_081.png
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 23
+        width: 132
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa6e10d38c10158b0800000000000000
+      internalID: -5165345338088626518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_082.png
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 831
+        width: 132
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73ab08264d9efd220800000000000000
+      internalID: 2512984215490968119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_083.png
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 932
+        width: 132
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfef034286f2a00a0800000000000000
+      internalID: -6914662153543680261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_084.png
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 1947
+        width: 132
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffbde435df5ede960800000000000000
+      internalID: 7633009819650022399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_085.png
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 1846
+        width: 133
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a32950f80e803dd0800000000000000
+      internalID: -2508348823402110044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_086.png
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 1947
+        width: 133
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b8ca74450de27120800000000000000
+      internalID: 2410249357476153529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_087.png
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 236
+        width: 132
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b77005386b83293a0800000000000000
+      internalID: -6660198542389278853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_088.png
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 245
+        width: 132
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38730e55f8db7c2a0800000000000000
+      internalID: -6717191895881074813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_089.png
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 436
+        width: 132
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56e80bec15e2320b0800000000000000
+      internalID: -5754704969954455963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_090.png
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 537
+        width: 132
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e13f6377a3c20c9b0800000000000000
+      internalID: -5061997351544622306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_091.png
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 1210
+        width: 132
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c4dce0ce075ae7b0800000000000000
+      internalID: -5194243499340540735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_092.png
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 1545
+        width: 133
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d4773106ddce9a70800000000000000
+      internalID: 8835725837974598865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_093.png
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 1444
+        width: 133
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b939061cc73ae75c0800000000000000
+      internalID: -4215752444956601445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_094.png
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 137
+        width: 132
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8da3079853d59a640800000000000000
+      internalID: 5091703338239539928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_095.png
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 335
+        width: 132
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 868be7c51835c89c0800000000000000
+      internalID: -3923669360278849432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_096.png
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 335
+        width: 132
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd2de33217f969a30800000000000000
+      internalID: 4221737008977859295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_097.png
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 202
+        width: 132
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b29e53503bdb9ec70800000000000000
+      internalID: 9000933906860861739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_098.png
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 537
+        width: 132
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f686dbdd48df39b70800000000000000
+      internalID: 8904739635339290735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_099.png
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 436
+        width: 132
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2423995b384cffdc0800000000000000
+      internalID: -3602945106906631614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_100.png
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 1042
+        width: 133
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a0b366a33334cc90800000000000000
+      internalID: -7150534011429605211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_101.png
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 1143
+        width: 133
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 582db7dbdae038160800000000000000
+      internalID: 7026475982999245445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_102.png
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 1846
+        width: 132
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35e52ebaca79e8210800000000000000
+      internalID: 1337172907249524307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_103.png
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 1745
+        width: 132
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ee80402397573ba0800000000000000
+      internalID: -6109318080091877655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_104.png
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 36
+        width: 132
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9a954a6f916870c0800000000000000
+      internalID: -4577801683911468385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_105.png
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 69
+        width: 132
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55296613d27b705d0800000000000000
+      internalID: -3096304814063709611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_106.png
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 1646
+        width: 133
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cafbbcdbc1c807580800000000000000
+      internalID: -8831404814202323028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_107.png
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 1747
+        width: 133
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24543c2213ff0d960800000000000000
+      internalID: 7624874755639952706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_108.png
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 1695
+        width: 132
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a38e1c5bdd5a812a0800000000000000
+      internalID: -6766476068468430790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_109.png
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 1594
+        width: 132
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11656b207f707b0a0800000000000000
+      internalID: -6866010349419211247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_110.png
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 1412
+        width: 132
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 528fb0a40f4ce9cf0800000000000000
+      internalID: -243540793517934555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_111.png
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 124
+        width: 132
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f318b44300778c400800000000000000
+      internalID: 344656214254911807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_112.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 306
+        width: 133
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 905414856c8afb120800000000000000
+      internalID: 2431847893641020681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_113.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 407
+        width: 133
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37bf3401b02b89a20800000000000000
+      internalID: 3069398906640268147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_114.png
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 1612
+        width: 132
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 288db9be53420f690800000000000000
+      internalID: -7570511159605077886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_115.png
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 1311
+        width: 132
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 228065ae08a75d970800000000000000
+      internalID: 8779057742734559266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_116.png
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 1420
+        width: 132
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e776059847dcc670800000000000000
+      internalID: 8560453698462316517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_117.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 811
+        width: 133
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0c9d0864dcf6a4d0800000000000000
+      internalID: -3123531302325871604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_118.png
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 980
+        width: 132
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccbcc745c706637b0800000000000000
+      internalID: -5244898628916687924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_119.png
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 1081
+        width: 132
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a191b7824d6395b40800000000000000
+      internalID: 5429431110611966234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_120.png
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 778
+        width: 132
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 668373bf43e682ca0800000000000000
+      internalID: -6041457726285465498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_121.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1279
+        width: 133
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b762daabcf203110800000000000000
+      internalID: 1238542449317668786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_122.png
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 879
+        width: 132
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b22568aeffcc4fdb0800000000000000
+      internalID: -4758953506700373461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_123.png
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 548
+        width: 132
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5edb8b792ceb4a9a0800000000000000
+      internalID: -6222639042140783131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_124.png
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 1080
+        width: 132
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9301257a58855aaf0800000000000000
+      internalID: -385804862009241543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_125.png
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 677
+        width: 132
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ed240a483a8a2da0800000000000000
+      internalID: -5968806381761581596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_126.png
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 346
+        width: 132
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c916f7b5e744c6aa0800000000000000
+      internalID: -6166478480285408868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityTiles_127.png
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 447
+        width: 132
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee858750a45e3c380800000000000000
+      internalID: -8952059528200300306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      cityTiles_000.png: -2101963246841385811
+      cityTiles_001.png: 7671924814747028673
+      cityTiles_002.png: 990224895734890045
+      cityTiles_003.png: 6437950856997779376
+      cityTiles_004.png: 4218328501979869607
+      cityTiles_005.png: 6029968400446329068
+      cityTiles_006.png: 2902470823185515329
+      cityTiles_007.png: -967929236225504927
+      cityTiles_008.png: 5428523628119277627
+      cityTiles_009.png: 3209807928497511252
+      cityTiles_010.png: -8627777625986325473
+      cityTiles_011.png: 2477113129346115549
+      cityTiles_012.png: -6958489378454481941
+      cityTiles_013.png: -6216616392619227106
+      cityTiles_014.png: 8276111291653806013
+      cityTiles_015.png: 4393973688678053626
+      cityTiles_016.png: 1046178081929681060
+      cityTiles_017.png: -7534045983376214581
+      cityTiles_018.png: 8321040163168793799
+      cityTiles_019.png: 4443818641545121907
+      cityTiles_020.png: -1909806836167823454
+      cityTiles_021.png: 509487917005253750
+      cityTiles_022.png: -1795149179892746508
+      cityTiles_023.png: 5894698546191296360
+      cityTiles_024.png: -5603865636495696525
+      cityTiles_025.png: 4934775071329705279
+      cityTiles_026.png: -6083546620311029349
+      cityTiles_027.png: -7203388179384516186
+      cityTiles_028.png: 1705010790129696542
+      cityTiles_029.png: 158478732415258270
+      cityTiles_030.png: -968643864903252042
+      cityTiles_031.png: 3567551615849418088
+      cityTiles_032.png: 7018629380010986385
+      cityTiles_033.png: 3360715282086686367
+      cityTiles_034.png: 9125507279279528416
+      cityTiles_035.png: 5255073904102780759
+      cityTiles_036.png: -5396200177171427423
+      cityTiles_037.png: 7665516990512687001
+      cityTiles_038.png: -3994007471186226010
+      cityTiles_039.png: 7552410340840293744
+      cityTiles_040.png: -5374047982231291657
+      cityTiles_041.png: 6270490137461639958
+      cityTiles_042.png: 2975955326653252021
+      cityTiles_043.png: 1716136638957668349
+      cityTiles_044.png: -9025439357780132512
+      cityTiles_045.png: -6202954580714353473
+      cityTiles_046.png: -583095477398522437
+      cityTiles_047.png: -5669834511167134840
+      cityTiles_048.png: 2875977362020337657
+      cityTiles_049.png: -5871032608524393484
+      cityTiles_050.png: -7892457019653326461
+      cityTiles_051.png: -14291283521609011
+      cityTiles_052.png: 2732489107111111204
+      cityTiles_053.png: 4006777069268084343
+      cityTiles_054.png: -3517688135590289931
+      cityTiles_055.png: 8312285911204355218
+      cityTiles_056.png: -1228319926910223146
+      cityTiles_057.png: -1896365799111702604
+      cityTiles_058.png: -3754635619220109814
+      cityTiles_059.png: 3261063033987171956
+      cityTiles_060.png: -2497545907253309149
+      cityTiles_061.png: -7449426656755058362
+      cityTiles_062.png: -6696597368877036750
+      cityTiles_063.png: 4750497576982037391
+      cityTiles_064.png: 1939336263972196409
+      cityTiles_065.png: 9046364489003550008
+      cityTiles_066.png: -468496469004084166
+      cityTiles_067.png: 7553333741995520674
+      cityTiles_068.png: -9009631586395894228
+      cityTiles_069.png: 4549069241141926132
+      cityTiles_070.png: 4542546878195665276
+      cityTiles_071.png: 4689563460551723877
+      cityTiles_072.png: -5850263292678767183
+      cityTiles_073.png: -2260128551702862851
+      cityTiles_074.png: -129340237512041262
+      cityTiles_075.png: 2448636558636253406
+      cityTiles_076.png: 1527965631632421163
+      cityTiles_077.png: -2939817440270211008
+      cityTiles_078.png: -4978994833558762182
+      cityTiles_079.png: 8569528892275590912
+      cityTiles_080.png: -1301228149433326898
+      cityTiles_081.png: -5165345338088626518
+      cityTiles_082.png: 2512984215490968119
+      cityTiles_083.png: -6914662153543680261
+      cityTiles_084.png: 7633009819650022399
+      cityTiles_085.png: -2508348823402110044
+      cityTiles_086.png: 2410249357476153529
+      cityTiles_087.png: -6660198542389278853
+      cityTiles_088.png: -6717191895881074813
+      cityTiles_089.png: -5754704969954455963
+      cityTiles_090.png: -5061997351544622306
+      cityTiles_091.png: -5194243499340540735
+      cityTiles_092.png: 8835725837974598865
+      cityTiles_093.png: -4215752444956601445
+      cityTiles_094.png: 5091703338239539928
+      cityTiles_095.png: -3923669360278849432
+      cityTiles_096.png: 4221737008977859295
+      cityTiles_097.png: 9000933906860861739
+      cityTiles_098.png: 8904739635339290735
+      cityTiles_099.png: -3602945106906631614
+      cityTiles_100.png: -7150534011429605211
+      cityTiles_101.png: 7026475982999245445
+      cityTiles_102.png: 1337172907249524307
+      cityTiles_103.png: -6109318080091877655
+      cityTiles_104.png: -4577801683911468385
+      cityTiles_105.png: -3096304814063709611
+      cityTiles_106.png: -8831404814202323028
+      cityTiles_107.png: 7624874755639952706
+      cityTiles_108.png: -6766476068468430790
+      cityTiles_109.png: -6866010349419211247
+      cityTiles_110.png: -243540793517934555
+      cityTiles_111.png: 344656214254911807
+      cityTiles_112.png: 2431847893641020681
+      cityTiles_113.png: 3069398906640268147
+      cityTiles_114.png: -7570511159605077886
+      cityTiles_115.png: 8779057742734559266
+      cityTiles_116.png: 8560453698462316517
+      cityTiles_117.png: -3123531302325871604
+      cityTiles_118.png: -5244898628916687924
+      cityTiles_119.png: 5429431110611966234
+      cityTiles_120.png: -6041457726285465498
+      cityTiles_121.png: 1238542449317668786
+      cityTiles_122.png: -4758953506700373461
+      cityTiles_123.png: -6222639042140783131
+      cityTiles_124.png: -385804862009241543
+      cityTiles_125.png: -5968806381761581596
+      cityTiles_126.png: -6166478480285408868
+      cityTiles_127.png: -8952059528200300306
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
