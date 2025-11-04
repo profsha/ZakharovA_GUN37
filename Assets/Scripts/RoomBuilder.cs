@@ -14,14 +14,20 @@ public class RoomBuilder : MonoBehaviour
     private float depth  = 8;
     [SerializeField]
     private float height = 2.5f;
+    [SerializeField]
+    private float wallThickness = 0.2f;
 
     [Header("Мебель")]
     [SerializeField]
-    private FurnitureEntry[] furniture;   // префаб + сколько штук
+    private FurnitureEntry[] furniture;
     [SerializeField]
     private float            minWallDist = 0.5f;
     [SerializeField]
     private float            minItemDist = 0.6f;
+
+    [Range(10, 500)]
+    [SerializeField]
+    private int maxAttempts = 100;
 
     [Header("Зона спавна игрока")]
     [SerializeField]
@@ -33,6 +39,8 @@ public class RoomBuilder : MonoBehaviour
     [SerializeField]
     private int seed = 0;
 
+    [SerializeField] private GameObject playerPrefab;
+
     private Transform parent;
     private List<Bounds> occupied = new List<Bounds>();
 
@@ -43,7 +51,19 @@ public class RoomBuilder : MonoBehaviour
         public int        count;
     }
 
-    void Start() => Generate();
+    void Start()
+    {
+        Generate();
+        SpawnPlayer();
+    }
+
+    public void SpawnPlayer()
+    {
+        Vector3 center = parent.position + new Vector3(width / 2, 0, depth / 2);
+        float randomY = Random.Range(0f, 360f);
+        var rotation = Quaternion.Euler(0f, randomY, 0f);
+        var robot = Instantiate(playerPrefab, center, rotation);
+    }
 
     [ContextMenu("Generate")]
     public void Generate()
@@ -57,27 +77,21 @@ public class RoomBuilder : MonoBehaviour
 
         BuildFloor();
         Build4Walls();
-        PlaceFurniture();
+        PlaceFurnitureSmart();
     }
 
     void BuildFloor()
     {
-        float w = width;
-        float d = depth;
         GameObject floor = GameObject.CreatePrimitive(PrimitiveType.Plane);
         floor.name = "Floor";
         floor.transform.parent = parent;
-        floor.transform.localPosition = new Vector3(w / 2, 0, d / 2);
+        floor.transform.localPosition = new Vector3(width / 2, 0, depth / 2);
         floor.transform.localScale = new Vector3(width / 10f, 1, depth / 10f);
     }
 
     void Build4Walls()
     {
-        float w = width;
-        float d = depth;
-        float h = height;
-        float t = 0.2f;
-
+        float w = width, d = depth, h = height, t = wallThickness;
         SpawnWallCube("WallFront", new Vector3(w, h, t), new Vector3(w / 2, h / 2, -t / 2));
         SpawnWallCube("WallBack",   new Vector3(w, h, t), new Vector3(w / 2, h / 2, d + t / 2));
         SpawnWallCube("WallLeft",   new Vector3(t, h, d), new Vector3(-t / 2, h / 2, d / 2));
@@ -93,22 +107,29 @@ public class RoomBuilder : MonoBehaviour
         wall.transform.localScale = scale;
     }
 
-    void PlaceFurniture()
+    void PlaceFurnitureSmart()
     {
         foreach (var entry in furniture)
         {
             if (entry.prefab == null) continue;
+            int placed = 0;
             for (int i = 0; i < entry.count; i++)
             {
-                Vector3 p = RandomPoint();
-                if (IsFree(p, entry.prefab))
+                for (int tryNum = 0; tryNum < maxAttempts; tryNum++)
                 {
-                    GameObject go = Instantiate(entry.prefab, parent);
-                    go.transform.position = p;
-                    go.transform.rotation = RandomYRot();
-                    RegisterBounds(go);
+                    Vector3 p = RandomPoint();
+                    if (IsFree(p, entry.prefab))
+                    {
+                        GameObject go = Instantiate(entry.prefab, parent);
+                        go.transform.position = p;
+                        go.transform.rotation = RandomYRot();
+                        RegisterBounds(go);
+                        placed++;
+                        break;
+                    }
                 }
             }
+            // если placed < entry.count – значит места не хватило
         }
     }
 

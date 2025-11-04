@@ -133,6 +133,7 @@ GameObject:
   - component: {fileID: 56792278}
   - component: {fileID: 56792277}
   - component: {fileID: 56792276}
+  - component: {fileID: 56792279}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -207,13 +208,32 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 56792275}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalRotation: {x: 0.4118033, y: 0.00431212, z: 0.0095416065, w: 0.9112126}
+  m_LocalPosition: {x: 5.69, y: 6.14, z: 10.38}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 48.625, y: 1.363, z: 1.815}
+--- !u!114 &56792279
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 56792275}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4255cb27e0179604194c1a1823a94912, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 10
+  boostMul: 3
+  orbitSpeed: 3
+  panSpeed: 0.15
+  zoomSpeed: 0.8
+  zoomMin: 1
+  zoomMax: 200
 --- !u!1 &185726850
 GameObject:
   m_ObjectHideFlags: 0
@@ -308,12 +328,17 @@ MonoBehaviour:
   width: 10
   depth: 8
   height: 2.5
-  furniture: []
+  wallThickness: 0.2
+  furniture:
+  - prefab: {fileID: 2285550631236222938, guid: fbe12984163bbc744bb578ef38ddcf07, type: 3}
+    count: 10
   minWallDist: 0.5
   minItemDist: 0.6
+  maxAttempts: 100
   spawnZone: {x: 2, y: 2}
   gizmoCol: {r: 0, g: 1, b: 0, a: 0.25}
   seed: 0
+  playerPrefab: {fileID: 1598663679886750083, guid: 4f3072721896edd48b40b28834d00e7a, type: 3}
 --- !u!1 &1976217609
 GameObject:
   m_ObjectHideFlags: 0
@@ -401,13 +426,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1976217609}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalRotation: {x: 0.5761212, y: -0.25178933, z: 0.059911754, w: 0.77530456}
+  m_LocalPosition: {x: 1.09, y: 3, z: 13.61}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+  m_LocalEulerAnglesHint: {x: 67.445, y: -56.918, z: -30.942}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
