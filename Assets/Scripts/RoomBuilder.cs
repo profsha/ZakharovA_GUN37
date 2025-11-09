@@ -29,6 +29,8 @@ public class RoomBuilder : MonoBehaviour
     [SerializeField]
     private Color   gizmoCol  = new Color(0, 1, 0, 0.25f);
 
+    [SerializeField] private GameObject playerPrefab;
+
     [Header("Seed (0 = рандом)")]
     [SerializeField]
     private int seed = 0;
@@ -43,7 +45,20 @@ public class RoomBuilder : MonoBehaviour
         public int        count;
     }
 
-    void Start() => Generate();
+    void Start()
+    {
+        Generate();
+        SpawnPlayer();
+    }
+
+    public void SpawnPlayer()
+    {
+        if (playerPrefab == null) return;
+        Vector3 center = parent.position + new Vector3(width / 2, 0, depth / 2);
+        float randomY = Random.Range(0f, 360f);
+        var rotation = Quaternion.Euler(0f, randomY, 0f);
+        Instantiate(playerPrefab, center, rotation);
+    }
 
     [ContextMenu("Generate")]
     public void Generate()
