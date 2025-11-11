@@ -225,7 +225,6 @@ GameObject:
   - component: {fileID: 185726853}
   - component: {fileID: 185726852}
   - component: {fileID: 185726851}
-  - component: {fileID: 185726854}
   m_Layer: 0
   m_Name: MainInstaller
   m_TagString: Untagged
@@ -293,27 +292,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &185726854
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 185726850}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b31d9208d34427941a8065d07513112a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  width: 10
-  depth: 8
-  height: 2.5
-  furniture: []
-  minWallDist: 0.5
-  minItemDist: 0.6
-  spawnZone: {x: 2, y: 2}
-  gizmoCol: {r: 0, g: 1, b: 0, a: 0.25}
-  seed: 0
 --- !u!1 &1976217609
 GameObject:
   m_ObjectHideFlags: 0
