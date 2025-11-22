@@ -1,13 +1,16 @@
+using States;
 using UnityEngine;
 using UnityEngine.AI;
 
-public class SearchState : StateMachineBehaviour
+public class SearchState : CommonState
 {
+    private float nextMoveTime;
     public override void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         var agent = animator.GetComponent<NavMeshAgent>();
         agent.isStopped = false;
         MoveToRandomPosition(agent);
+        nextMoveTime = Time.time + 1f;
     }
 
     void MoveToRandomPosition(NavMeshAgent agent)
@@ -23,11 +26,11 @@ public class SearchState : StateMachineBehaviour
 
     public override void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        // Проверка, пришёл ли агент к точке
         var agent = animator.GetComponent<NavMeshAgent>();
-        if (!agent.pathPending && agent.remainingDistance < 0.5f)
+        if (!agent.pathPending && agent.remainingDistance < 0.5f && Time.time >= nextMoveTime)
         {
             MoveToRandomPosition(agent);
+            nextMoveTime = Time.time + 1f;
         }
     }
 }

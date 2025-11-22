@@ -1,7 +1,8 @@
+using States;
 using UnityEngine;
 using UnityEngine.AI;
 
-public class ReturnState : StateMachineBehaviour
+public class ReturnState : CommonState
 {
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {

@@ -1,7 +1,8 @@
+using States;
 using UnityEngine;
 using UnityEngine.AI;
 
-public class IdleState : StateMachineBehaviour
+public class IdleState : CommonState
 {
     private float idleStartTime;
 
